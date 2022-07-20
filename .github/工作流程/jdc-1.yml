@@ -53,7 +53,7 @@ jobs:
           sudo -E apt-get -qq autoremove --purge
           sudo -E apt-get -qq clean
         
-    - name: 下载源码
+    - name: 下载源码1
       run: |
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
    
