@@ -18,9 +18,10 @@ on:
 #     - 'Lean'
 #   schedule:
 #     - cron: 0 18 * * 1
-   watch:
-     types: started
-  
+#    watch:
+#      types: started
+   workflow_dispatch:
+   
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: openwrt-21.02.1
